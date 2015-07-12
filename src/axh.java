@@ -38,7 +38,8 @@ public class axh extends axu {
         this.n.add(new avs(0, this.l / 2 - 100, this.m / 2 + this.i / 2 + this.q.a, bnq.a("gui.toMenu")));
 
         // sofort wieder connecten indem GuiConnecting geöffnet wird.
-        j.a(new awz(h, j, j.D(), f.d()));
+        if (j.D() != null)
+            j.a(new awz(h, j, j.D(), f.d()));
     }
 
     /**
